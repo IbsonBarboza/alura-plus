@@ -185,3 +185,44 @@ body {
     color: var(--footer-text-color);
     font-size: .8rem;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        background-image: none;
+        height: 80vh;
+    }
+
+    .img-combo {
+        width: 50vw;
+    }
+
+    .main-box {
+        margin: 2rem;
+    }
+
+    .margin-content {
+        margin: 2rem;
+        text-align: center;
+    }
+
+    .other-img {
+        width: 80%;
+    }
+
+    .flex-img {
+        flex-direction: column;
+    }
+    
+    .links {
+        flex-direction: column;
+    }
+
+    .links li {
+        margin: .2rem 0;
+    }
+
+    .logo {
+        margin-top: 10rem;
+    }
+}
